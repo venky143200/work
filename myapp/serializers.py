@@ -8,3 +8,5 @@ class ProductSerializer(ModelSerializer):
     class Meta:
         model = Product
         fields = ["Name", "item_cost", "stock_quantity", "volume"]
+
+
